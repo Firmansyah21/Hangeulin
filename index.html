@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500&family=Poppins:wght@200;400;500&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+<body class="font-[Poppins,Montserrat]">
+    <header class="xl:w-[1300px] mx-auto  ">
+        <img class="absolute left-0 top-0" src="img/bg-pink.svg" alt="">
+        <nav class="flex justify-between items-center w-[92%]  mx-auto xl:pt-[20px]">
+            <div class="">
+                <h1 class="xl:text-[35px] md:text-[25px] text-2xl font-extrabold ">Hangeu<span class="text-yellow-500">lin</span></h1>
+            </div>
+            <div
+                class="text-sm nav-links duration-500 md:static absolute xl:bg-white md:bg-white  bg-white md:min-h-fit min-h-[50vh] left-0 top-[-90%] md:w-auto  w-full flex items-center px-5">
+                <ul class="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-10">
+                    <li>
+                        <a class="hover:text-gray-500" href="#kursus">Kursus</a>
+                    </li>
+                    <li>
+                        <a class="hover:text-gray-500" href="#beasiswa">Beasiswa</a>
+                    </li>
+                    <li>
+                        <a class="hover:text-gray-500" href="#travel">Travel</a>
+                    </li>
+                    <li>
+                        <a class="hover:text-gray-500" href="#about">Tentang Kami</a>
+                    </li>
+                 
+                    
+                </ul>
+            </div>
+            <div class="flex items-center xl:gap-6 gap-2 text-sm xl:mt-0 mt-2 text-black">
+                <button class="bg-yellow-600  px-3 py-2 rounded-md transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#056AAD] hover:text-white duration-300  ">Masuk</button>
+                <button class=" text-black px-3 py-2 rounded-md border-solid border-2 border-yellow-600 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-yellow-600 hover:text-white duration-300">Daftar</button>
+                <ion-icon onclick="onToggleMenu(this)" name="menu" class="text-4xl cursor-pointer md:hidden text-black"></ion-icon>
+            </div>
+
+          
+    </header>
+
+    <!-- Hero start -->
+    <section id="" class="xl:mt-0 mt-20">
+        <div class="xl:flex xl:w-[1200px] mx-auto xl:mt-[200px] md:mt-[] mt-14">
+            <div class="xl:w-[459px] xl:h-[255px] xl:text-start md:text-center text-center">
+                <h1 class="xl:text-[35px] xl:leading-[40px] font-bold md:text-[30px] text-2xl ">Solusi <span class="text-blue-900">Terbaik</span> Untuk <br>Belajar Bahasa Korea</h1>
+                <p class="text-xs  pt-[16px] pb-[28px] xl:w-[290px] md:w-[500px] xl:mx-0 md:mx-auto md:text-sm">Kursus online gratis yang menyediakan beragam fasilitas dan dapat membantu dalam mengasah kemampuan berbahasa koreamu</p>
+                <button class="bg-yellow-600 text-black text-sm px-4 py-2 rounded-md transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#056AAD] hover:text-white duration-300">Gabung Sekarang</button>
+            </div>
+            <div class="xl:ml-20">
+                <img class="xl:absolute xl:w-[650px] top-12 xl:mx-0 xl:pt-0 md:w-[] w-[300px]  mx-auto pt-10 ransition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300 " src="img/hero.png" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- Hero end -->
+
+
+    <!-- About start -->
+    <section id="kursus" class="w-full xl:mt-[200px] mt-14">
+        <div class=" xl:flex xl:w-[1200px] xl:h-[480px] mx-auto xl:gap-[120px] ">
+            <div class="xl:text-start text-center xl:mt-[30px]">
+                <h1 class="xl:text-[27px] font-medium mb-[24px] ">Layanan Kami Dalam Membantu <br>Anda</h1>
+                <img class="xl:w-[500px] xl:mx-0 md:w-[] w-[300px] mx-auto transition ease-in delay-150  hover:-translate-y-1 hover:scale-110  duration-300" src="img/anak anak.png" alt="">
+            </div>
+            <div class="xl:grid xl:grid-cols-2 md:grid md:grid-cols-2 gap-3 md:ml-4">
+                <div class="w-[290px] h-[160px] rounded-sm mt-12 xl:mx-0 mx-auto">
+                    <img class="animate-bounce " src="img/icon1.svg" alt="">
+                   <a href=""> <h1 class="text-sm font-semibold tracking-wide pt-[15px] pb-[8px]">Materi Update</h1></a>
+                    <p class="w-[300px] text-sm">Tincidunt pretium amet ut vestibulum commodo in nulla lacus, convallis. Molestie nulla venenatis facilisi at.</p>
+                </div>
+                <div class="w-[290px] h-[160px] rounded-sm mt-12 xl:mx-0 mx-auto">
+                    <img class="animate-bounce " src="img/icon2.svg" alt="">
+                    <a href=""> <h1 class="text-sm font-semibold tracking-wide pt-[15px] pb-[8px]">Akses Selamanya</h1></a>
+                    <p class="w-[300px] text-sm">Tincidunt pretium amet ut vestibulum commodo in nulla lacus, convallis. Molestie nulla venenatis facilisi at.</p>
+                </div>
+                <div class="w-[290px] h-[160px] rounded-sm xl:mt-0 mt-12 xl:mx-0 mx-auto ">
+                    <img class="animate-bounce " src="img/icon3.svg" alt="">
+                    <a href=""> <h1 class="text-sm font-semibold tracking-wide pt-[15px] pb-[8px]">Sertifikat Kompeten</h1></a>
+                    <p class="w-[300px] text-sm">Tincidunt pretium amet ut vestibulum commodo in nulla lacus, convallis. Molestie nulla venenatis facilisi at.</p>
+                </div>
+                <div class="w-[290px] h-[160px] rounded-sm xl:mt-0 mt-12 xl:mx-0 mx-auto ">
+                    <img class="animate-bounce " src="img/icon4.svg" alt="">
+                    <a href=""> <h1 class="text-sm font-semibold tracking-wide pt-[15px] pb-[8px]">Pengajar Berpengalaman</h1></a>
+                    <p class="w-[300px] text-sm">Tincidunt pretium amet ut vestibulum commodo in nulla lacus, convallis. Molestie nulla venenatis facilisi at.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About end -->
+
+    <!-- Pilihan Paket start -->
+    <section id="beasiswa" class="w-full xl:mt-[150px] md:mt-9">
+        <div class="pt-5 ">
+            <div class="text-center">
+                <h1 class="text-2xl font-semibold pb-3">Pilih Paket</h1>
+                <p class="xl:w-[720px] mx-auto text-sm w-[300px]">Quisque aliquam, faucibus est massa phasellus turpis pellentesque nam tristique. Facilisi varius sed ridiculus cras lacus. Elementum in in convallis sit vitae donec amet.</p>
+            </div>
+        </div>
+        <div class="xl:flex gap-4 xl:w-[1200px] xl:h-[500px] md:grid md:grid-cols-2 mx-auto mt-5 ">
+          
+            <div class="xl:w-[417px] xl:h-[450px] w-[300px] h-[450px] mb-6 mx-auto bg-[#FEF7E5] mt-[23px] rounded-lg drop-shadow-lg ">
+                <h1 class="text-2xl font-semibold text-center pt-4 pb-6">Paket 1</h1>
+                <div class="ml-4">
+                    <div class="flex gap-5 pb-5 ">
+                        <img class="w-7" src="img/Checklist.svg" alt="">
+                        <h2 class="pt-1 text-base font-normal">Vitae sagittis</h2>
+                    </div>
+                    <div class="flex gap-5 pb-5">
+                        <img class="w-7" src="img/Checklist.svg" alt="">
+                        <h2 class="pt-1 text-base font-normal">Vitae sagittis</h2>
+                    </div>
+                    <div class="flex gap-5 pb-5">
+                        <img class="w-7" src="img/Checklist.svg" alt="">
+                        <h2 class="pt-1 text-base font-normal">Vitae sagittis</h2>
+                    </div>
+                    <div class="flex gap-5 pb-5">
+                        <img class="w-7" src="img/Checklist.svg" alt="">
+                        <h2 class="pt-1 text-base font-normal">Vitae sagittis</h2>
+                    </div>
+                    <div class="flex gap-5 pb-5">
+                        <img class="w-7" src="img/Checklist.svg" alt="">
+                        <h2 class="pt-1 text-base font-normal">Vitae sagittis</h2>
+                    </div>
+                    <div class="flex gap-5 pb-5">
+                        <img class="w-7" src="img/Checklist.svg" alt="">
+                        <h2 class="pt-1 text-base font-normal">Vitae sagittis</h2>
+                    </div>
+                    
+                </div>
+                <div class=" text-center pt-7">
+                    <button class="bg-yellow-600 text-black text-sm px-3 py-2 font-bold rounded-md transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#056AAD] hover:text-white duration-300">Beli Sekarang</button>
+                </div>
+            </div>
+            <div class="xl:w-[417px] xl:h-[500px] w-[300px] h-[500px] mb-6 mx-auto bg-[#F4C237] rounded-lg drop-shadow-lg ">
+                <h1 class="text-2xl font-semibold text-center pt-4 pb-6">Paket 1</h1>
+                <div class="">
+                    <div class="ml-4">
+                        <div class="flex gap-5 pb-4 ">
+                            <img class="w-7" src="img/Checklistputih.svg" alt="">
+                            <h2 class="pt-1 text-base font-normal">Vitae sagittis</h2>
+                        </div>
+                        <div class="flex gap-5 pb-4 ">
+                            <img class="w-7" src="img/Checklistputih.svg" alt="">
+                            <h2 class="pt-1 text-base font-normal">Vitae sagittis</h2>
+                        </div>
+                        <div class="flex gap-5 pb-4 ">
+                            <img class="w-7" src="img/Checklistputih.svg" alt="">
+                            <h2 class="pt-1 text-base font-normal">Vitae sagittis</h2>
+                        </div>
+                        <div class="flex gap-5 pb-4 ">
+                            <img class="w-7" src="img/Checklistputih.svg" alt="">
+                            <h2 class="pt-1 text-base font-normal">Vitae sagittis</h2>
+                        </div>
+                        <div class="flex gap-5 pb-4 ">
+                            <img class="w-7" src="img/Checklistputih.svg" alt="">
+                            <h2 class="pt-1 text-base font-normal">Vitae sagittis</h2>
+                        </div>
+                        <div class="flex gap-5 pb-4 ">
+                            <img class="w-7" src="img/Checklistputih.svg" alt="">
+                            <h2 class="pt-1 text-base font-normal">Vitae sagittis</h2>
+                        </div>
+                        <div class="flex gap-5 pb-4 ">
+                            <img class="w-7" src="img/Checklistputih.svg" alt="">
+                            <h2 class="pt-1 text-base font-normal">Vitae sagittis</h2>
+                        </div>
+                        <div class="flex gap-5 pb-4 ">
+                            <img class="w-7" src="img/Checklistputih.svg" alt="">
+                            <h2 class="pt-1 text-base font-normal">Vitae sagittis</h2>
+                        </div>
+                       
+                        
+                    </div>
+                    <div class=" text-center pt-4">
+                        <button class="bg-[#056AAD] text-white text-sm px-3 py-2 font-bold rounded-md transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-yellow-600 hover:text-white duration-300">Beli Sekarang</button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="xl:w-[417px] xl:h-[450px] w-[300px] h-[450px] mb-6 mx-auto bg-[#FEF7E5] mt-[23px] rounded-lg drop-shadow-lg ">
+                <h1 class="text-2xl font-semibold text-center pt-4 pb-6">Paket 3</h1>
+                <div class="ml-4">
+                    <div class="flex gap-5 pb-5 ">
+                        <img class="w-7" src="img/Checklist.svg" alt="">
+                        <h2 class="pt-1 text-base font-normal">Vitae sagittis</h2>
+                    </div>
+                    <div class="flex gap-5 pb-5">
+                        <img class="w-7" src="img/Checklist.svg" alt="">
+                        <h2 class="pt-1 text-base font-normal">Vitae sagittis</h2>
+                    </div>
+                    <div class="flex gap-5 pb-5">
+                        <img class="w-7" src="img/Checklist.svg" alt="">
+                        <h2 class="pt-1 text-base font-normal">Vitae sagittis</h2>
+                    </div>
+                    <div class="flex gap-5 pb-5">
+                        <img class="w-7" src="img/Checklist.svg" alt="">
+                        <h2 class="pt-1 text-base font-normal">Vitae sagittis</h2>
+                    </div>
+                    <div class="flex gap-5 pb-5">
+                        <img class="w-7" src="img/Checklist.svg" alt="">
+                        <h2 class="pt-1 text-base font-normal">Vitae sagittis</h2>
+                    </div>
+                    <div class="flex gap-5 pb-5">
+                        <img class="w-7" src="img/Checklist.svg" alt="">
+                        <h2 class="pt-1 text-base font-normal">Vitae sagittis</h2>
+                    </div>
+                    
+                </div>
+                <div class=" text-center pt-7">
+                    <button class="bg-yellow-600 text-black text-sm px-3 font-bold py-2 rounded-md transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#056AAD] hover:text-white duration-300">Beli Sekarang</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Pilihan Paket end -->
+
+
+    <!-- Testimoni start -->
+    <section id="travel" class="">
+        <div class="xl:w-[1200px] xl:h-[500px] xl:mt-[100px] mx-auto mt-5">
+            <div class="absolute  xl:right-[600px] xl:pt-10 md:right-[500px]  right-[310px] pt-[410px] ">
+                <div class="absolute xl:w-[400px] xl:h-[400px] w-[250px] h-[250px] rounded-full border-solid border-2 border-[#F4C237]">
+                    <img class="xl:w-[300px] w-40 xl:mt-[45px] mt-[40px] ml-[40px]" src="img/Ellipse 3.png" alt="">
+                    <img class="absolute xl:ml-[320px] xl:mt-[-300px] mt-[-200px] ml-[180px] w-14" src="img/Ellipse 5.png" alt="">
+                    <img class="xl:ml-[18px] xl:mt-[-50px] mt-[-50px]" src="img/Ellipse 6.png" alt="">
+                </div>
+                
+            </div>
+           <div class="xl:text-start text-center">
+            <h1 class="xl:text-[30px] md:text-[25px] font-semibold pt-[50px]">Apa yang member kami <br>katakan</h1>
+            <p class="xl:w-[570px] md:w-[570px] xl:mx-0 mx-auto pt-[12px] text-sm pb-[24px]">“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tempor, nulla iaculis eget id arcu est cras. Purus at interdum est in lorem aliquam. Arcu, enim purus cras commodo aliquam purus a, justo nulla. Quis duis vulputate egestas dictum et in risus curabitur enim. Risus non semper pellentesque ornare accumsan malesuada. Risus leo erat neque rhoncus egestas id imperdiet. Dictum sed tristique lacus, ut vulputate dapibus elit. Gravida donec amet, non donec praesent diam gravida.”</p>
+           </div>
+            <div class="flex gap-3 justify-around xl:justify-start">
+                <div>
+                    <img src="img/Ellipse 7.png" alt="">
+                </div>
+                <div class="pt-1">
+                    <h1 class="text-sm font-semibold">Firmansyah</h1>
+                    <p class="text-sm">Sukabumi Jawa Barat</p>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <!-- Testimoni end -->
+
+    <!--  -->
+    <section id="about" class="w-full  ">
+        <div class="xl:w-[1200px] xl:h-[230px] xl:mt-0 md:w-[700px] md:h-[300px] w-[300px] h-[400px] bg-[#F4C237] mx-auto mt-[400px]">
+            <div class="xl:flex justify-between ">
+                <div class="xl:pl-[48px] xl:text-start text-center">
+                    <h1 class="text-2xl font-bold pt-[48px] pb-[24px]">Siap Bergabung</h1>
+                <p class="xl:w-[500px] text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultrices laoreet eget in id donec arcu nunc. Tortor risus adipiscing elit euismod montes, eget. Purus diam ultricies sed adipiscing at feugiat purus.</p>
+                </div>
+               <div class="xl:pt-[97px] xl:pr-[48px] md:pt-10 text-center pt-[100px]">
+                <button class="bg-[#056AAD] text-white text-sm px-3 py-2 rounded-md transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-yellow-600 hover:text-white duration-300">Gabung Sekarang</button>
+               </div>
+            </div>
+
+        </div>
+    </section>
+    <!--  -->
+
+    <!--  -->
+    <section class="">
+        <div class="xl:w-[1440] xl:h-[380px] xl:mt-[100px]  md:h-[800px] bg-[#FAE3A4] h-[900px] mt-[120px]">
+            <div class="xl:flex pt-[32px] mx-auto gap-[81px] xl:text-start text-center">
+                <div class="xl:w-[307px] xl:h-[187px] xl:ml-[69px] pt-[32px]">
+                    <h1 class="xl:text-[35px] md:text-[35px] text-2xl font-extrabold text-blue-900">Hangeu<span class="text-rose-500">lin</span></h1>
+                    <p class="text-sm pt-[24px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna sollicitudin malesuada cras egestas gravida. Quis potenti suspendisse aliquet consectetur egestas et.</p>
+                </div>
+                <div class="xl:w-[171px] xl:h-[111px] xl:pt-0 pt-5 ">
+                    <h1 class="text-base font-semibold pb-[21px]">Legalitas</h1>
+                  <p class="text-sm pb-[12px]"><a href="">Kebijakan Privasi</a></p>                 
+                  <p class="text-sm"><a href="">Persyaratan Layanan</a></p>                 
+                     
+                </div>
+                <div class="xl:w-[76px] xl:h-[172px] xl:pt-0 pt-5 ">
+                    <h1 class="text-base font-semibold pb-[21px]">Jelajahi</h1>
+                    <p class="text-sm pb-[12px]"><a href="">Kursus</a></p>                 
+                    <p class="text-sm pb-[12px]"><a href="">Beasiswa</a></p> 
+                    <p class="text-sm"><a href="">Tour</a></p> 
+                </div>
+                <div class="xl:w-[116px] xl:h-[111px] xl:pt-0 pt-5">
+                    <h1 class="text-base font-semibold pb-[21px]">Perusahaan</h1>
+                    <p class="text-sm pb-[12px]"><a href="">Hubungi Kami</a></p>                 
+                    <p class="text-sm"><a href="">Tentang Kami</a></p> 
+                </div>
+                <div class="xl:w-[307px] xl:h-[206px] xl:pt-0 pt-5  xl:mr-[69px]">
+                    <h1 class="text-base font-semibold pb-[21px]">Newsletter</h1>
+                    <p class="text-sm pb-[12px]"><a href="">   Dapatkan pembaruan yang menarik dari kami</a></p>
+                 
+                </div>
+
+            </div>
+        </div>
+        <div class="xl:flex justify-around pt-[14px] pb-[14px] text-center">
+            <p class="xl:text-sm text-xs">Copyright 2021 Hak Cipta Terpelihara oleh Firmansyah</p>
+           <div class="flex gap-4 justify-center pt-2 xl:pt-0">
+            <a href=""><img src="img/icon-fb.svg" alt=""></a>
+            <a href=""><img src="img/Instagram.svg" alt=""></a>
+            <a href=""><img src="img/Twitter.svg" alt=""></a>
+            <a href=""><img src="img/Line.svg" alt=""></a>
+           </div>
+        </div>
+    </section>
+    <!--  -->
+    
+
+    
+
+
+
+    <script>
+        const navLinks = document.querySelector('.nav-links')
+        function onToggleMenu(e){
+            e.name = e.name === 'menu' ? 'close' : 'menu'
+            navLinks.classList.toggle('top-[9%]')
+        }
+    </script>
+</body>
+</html>
